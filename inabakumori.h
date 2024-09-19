@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+static char *font = "JetBrainsMono Nerd Font:pixelsize=16:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -102,7 +102,7 @@ static const char *colorname[] = {
 	"gray90",
 	"blue2",
 	"magenta3",
-	"cyan3",
+	"#334e1e",
 	"yellow3",
 
 	/* 8 bright colors */
@@ -112,7 +112,7 @@ static const char *colorname[] = {
 	"white",
 	"#5c5cff",
 	"magenta",
-	"cyan",
+	"#2c630d",
 	"#fdf800",
 
 	[255] = 0,
@@ -132,7 +132,7 @@ static const char *colorname[] = {
 unsigned int defaultfg = 258;
 unsigned int defaultbg = 259;
 unsigned int defaultcs = 258;
-static unsigned int defaultrcs = 257;
+static unsigned int defaultrcs = 256;
 
 /*
  * Default shape of cursor
